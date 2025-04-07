@@ -19,7 +19,6 @@ const About = () => {
         difference, established the company with a mission to empower students with the right 
         skills and mindset for success.
       </p>
-
       <div className="vision-mission-container">
         <div className="vision">
           <h2><span className="vision-bar">|</span> <span className="vision-title">Our Vision</span></h2>
