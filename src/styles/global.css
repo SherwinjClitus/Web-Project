@@ -1,0 +1,53 @@
+/* Reset and Global Styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Arial', sans-serif;
+}
+/* Smooth scrolling effect */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Set background and text color */
+body {
+  background-color: #f9f9f9;
+  color: #333;
+  height: 100%;
+}
+
+/* Layout wrapper to ensure footer stays at bottom */
+.app-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+/* Main content area (pushes footer to bottom) */
+.main-content {
+  flex: 1;
+}
+
+/* Footer styling */
+.footer {
+  text-align: center;
+  padding: 20px;
+  background: #222;
+  color: white;
+}
+
+/* Responsive container */
+.container {
+  width: 90%;
+  max-width: 1200px;
+  margin: auto;
+  padding: 20px 0;
+}
+
+/* Utility class for centering */
+.center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

@@ -1,0 +1,85 @@
+.our-promise {
+  text-align: center;
+  padding: 60px 20px;
+  background-color: #fff;
+}
+
+.section-title {
+  font-size: 32px;
+  font-weight: bold;
+}
+
+.section-subtitle {
+  font-size: 18px;
+  color: #666;
+  margin: 10px 0 30px;
+}
+
+.promise-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 20px;
+  max-width: 1000px;
+  margin: auto;
+}
+
+/* Default style for a promise card */
+.promise-card {
+  padding: 20px;
+  border-radius: 8px;
+  background-color: #f9f9f9;
+  transition: 0.3s;
+  border-top: 3px solid #333; /* fallback border color */
+}
+
+.promise-card:hover {
+  transform: translateY(-5px);
+}
+
+.promise-title {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.icon {
+  margin-right: 8px;
+}
+
+/* Unique colors for each promise card */
+
+/* Card 1: Blue Theme */
+.promise-card:nth-child(1) {
+  background-color: #e6f7ff; /* Light blue background */
+  border-top: 3px solid #007bff; /* Strong blue accent */
+}
+
+/* Card 2: Orange Theme */
+.promise-card:nth-child(2) {
+  background-color: #fff5e6; /* Light orange background */
+  border-top: 3px solid #ff9800; /* Vibrant orange accent */
+}
+
+/* Card 3: Purple Theme */
+.promise-card:nth-child(3) {
+  background-color: #f5e6ff; /* Light purple background */
+  border-top: 3px solid #9c27b0; /* Bold purple accent */
+}
+
+/* Card 4: Green Theme */
+.promise-card:nth-child(4) {
+  background-color: #e6ffe6; /* Light green background */
+  border-top: 3px solid #28a745; /* Rich green accent */
+}
+
+/* Card 5: Teal Theme */
+.promise-card:nth-child(5) {
+  background-color: #e0f2f1; /* Light teal background */
+  border-top: 3px solid #009688; /* Deep teal accent */
+}
+
+/* Card 6: Red Theme */
+.promise-card:nth-child(6) {
+  background-color: #ffebee; /* Light red background */
+  border-top: 3px solid #d32f2f; /* Bold red accent */
+}

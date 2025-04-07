@@ -1,0 +1,41 @@
+.banner-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #ff2e44;
+    color: white;
+    padding: 20px 30px;
+    border-radius: 50px;
+    max-width: 900px;
+    margin: 20px auto;
+  }
+  
+  .banner-content h2 {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: #fff;
+  }
+  
+  .banner-content p {
+    font-size: 1rem;
+    margin: 0;
+    color: #fff;
+  }
+  
+  .register-btn {
+    background-color: white;
+    color: rgb(0, 0, 0);
+    font-size: 0.9rem;
+    font-weight: bold;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  
+  .register-btn:hover {
+    background-color: #ffe5e5;
+  }
+  

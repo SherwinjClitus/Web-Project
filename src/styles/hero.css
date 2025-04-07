@@ -1,0 +1,71 @@
+
+.hero {
+    /* text-align: center;
+    padding: 50px 20px;
+    background: url('/public/banner.jpg') no-repeat center center/cover;
+    color: rgb(255, 0, 0); */
+    width: 100%;
+    height: 400px; /* Adjust height as needed */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    position: relative;
+    min-height: 5vh;  /* Ensure it takes full viewport height */
+  padding: 20px;
+  }
+  .hero img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position: absolute;
+    opacity: 0;
+    transition: opacity 0.8s ease-in-out;
+    object-fit: contain;
+  }
+  .arrow {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 2rem;
+    color: white;
+    background: rgba(0, 0, 0, 0.5);
+    padding: 10px;
+    border-radius: 50%;
+    cursor: pointer;
+    z-index: 10;
+  }
+  .arrow.left {
+    left: 10px;
+  }
+  
+  .arrow.right {
+    right: 10px;
+  }
+  
+  .arrow:hover {
+    background: rgba(0, 0, 0, 0.8);
+  }
+  .hero img.active {
+    opacity: 1;
+  }
+  .hero h1 {
+    font-size: 2.5rem;
+  }
+  .hero p {
+    margin-top: 10px;
+    font-size: 1.2rem;
+  }
+  .explore-btn {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background: #ff5a5f;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 18px;
+    border-radius: 5px;
+  }
+  .explore-btn:hover {
+    background: #ff3136;
+  }
