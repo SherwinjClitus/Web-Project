@@ -1,12 +1,48 @@
-# React + Vite
+# 🧠 AptitudeGuru Clone (Web Project)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A full-stack web application that clones [https://aptitudeguru.in](https://aptitudeguru.in), built using **React** for frontend and **Node.js + Express + MongoDB** for backend.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Features
 
-## Expanding the ESLint configuration
+- 🔐 Signup & Login Authentication (JWT based)
+- 📚 Interactive Dashboard
+- 📦 React Frontend + Express Backend
+- 🗃️ MongoDB for user storage
+- 🔒 Password hashing using bcrypt
+- 🔄 Cross-Origin Resource Sharing (CORS) setup
+- 🎯 Aptitude questions layout (clone design)
+- 🧼 Clean and Responsive UI
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 📁 Folder Structure
+Web-Project/ ├── backend/ # Express + MongoDB backend │ ├── routes/ # Auth routes (signup, login) │ ├── models/ # User schema │ ├── .env # Environment variables │ └── server.js # Main backend server ├── React-Training/ # Frontend React app │ ├── src/ │ │ ├── components/ # React components │ │ ├── styles/ # CSS files │ │ └── App.jsx # Main app component │ └── index.html ├── .gitignore └── README.md # This file
+
+yaml
+Copy
+Edit
+
+---
+
+## ⚙️ Tech Stack
+
+- **Frontend**: React, HTML5, CSS3, JavaScript
+- **Backend**: Node.js, Express.js
+- **Database**: MongoDB
+- **Auth**: bcryptjs, JWT
+- **Other Tools**: Vite, dotenv, axios, cors
+
+---
+
+## 📦 Installation
+
+### 1. Clone the repository
+```bash
+git clone https://github.com/SherwinjClitus/Web-Project.git
+cd Web-Project
+
+
+
+
