@@ -12,17 +12,14 @@ A full-stack web application that clones [https://aptitudeguru.in](https://aptit
 - 🗃️ MongoDB for user storage
 - 🔒 Password hashing using bcrypt
 - 🔄 Cross-Origin Resource Sharing (CORS) setup
-- 🎯 Aptitude questions layout (clone design)
 - 🧼 Clean and Responsive UI
 
 ---
 
 ## 📁 Folder Structure
-Web-Project/ ├── backend/ # Express + MongoDB backend │ ├── routes/ # Auth routes (signup, login) │ ├── models/ # User schema │ ├── .env # Environment variables │ └── server.js # Main backend server ├── React-Training/ # Frontend React app │ ├── src/ │ │ ├── components/ # React components │ │ ├── styles/ # CSS files │ │ └── App.jsx # Main app component │ └── index.html ├── .gitignore └── README.md # This file
+Web-Project/ ├── backend/ # Express + MongoDB backend │ ├── routes/ # Auth routes (signup, login) │ ├── models/ # User schema │ ├── .env # Environment variables │ └── server.js # Main backend server ├── React-Training/ # Frontend React app │ ├── src/ │ │ ├── components/ # React components │ │ ├── styles/ # CSS files │ │ └── App.jsx # Main app component │ └── index.html ├── .gitignore └── README.md 
 
-yaml
-Copy
-Edit
+
 
 ---
 
