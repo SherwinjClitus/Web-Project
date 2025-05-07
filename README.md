@@ -38,7 +38,7 @@ Web-Project/ ├── backend/ # Express + MongoDB backend │ ├── routes
 ### 1. Clone the repository
 ```bash
 git clone https://github.com/SherwinjClitus/Web-Project.git
-cd Web-Project
+TO RUN IN GIT CMD ----> cd Web-Project
 
 
 
